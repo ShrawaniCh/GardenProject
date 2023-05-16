@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Garden master</title>
+    <style type="text/css">
+        button
+        {
+            background-color:black;
+            color:white;
+            padding:15px 32px;
+            font-size:16px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            
+        }
+        form
+        {
+            font-size:20 px;
+            color:green;
+            border: 2px solid #ccc;
+            background-color:yellowgreen;
+
+        }
+        textarea
+        {
+            resize: none;
+
+
+        }
+        input[type=text] 
+         {
+           background-color: white;
+           background-position: 10px 10px;
+           padding-left: 40px;
+           border-radius:4px;
+           background-color: #f8f8f8;
+           border: 2px solid #ccc;
+           box-shadow: 5px 5px;
+         }
+         input[type=number] 
+         {
+           background-color: white;
+           background-position: 10px 10px;
+           padding-left: 40px;
+           border-radius:4px;
+           background-color: #f8f8f8;
+          border: 2px solid #ccc;
+          box-shadow: 5px 5px;
+         }
+    </style>    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        
+</head>
+<!-- for Header  -->
+<nav class="navbar navbar-expand-lg" style="background-color:lightgreen;">
+    <div class="container-fluid">
+        <img class="navbar-brand img-fluid" src="https://nmc.gov.in/assets/img/nmc_logo_Marathi.png" width="410px" height="130px"></img>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Department</a>
+                </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<form>
+    <fieldset width="200px">
+
+    <table>
+        <tr>
+            <td>Select Division:</td>
+            <td><input type="text" name="sd" size="50"><select></select></td>
+        </tr>
+        <tr>
+            <td>Garden Name:</td>
+            <td><input type="text" name="gn" size="50"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><textarea rows="3" column="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>Area:</td>
+            <td><input type="text" name="ar" size="50"></td>
+        </tr>
+        <tr>
+            <td>Pin Code:</td>
+            <td><input type="number" name="pc" size="50"></td>
+        </tr>
+        <tr>
+            <td>Establishment:</td>
+            <td><input type="text" name="es" size="50"></td>
+        </tr>
+        <tr>
+            <td>Info:</td>
+            <td><textarea rows="3" column="10"></textarea></td>
+        </tr>
+        <tr>
+            <td>Map:</td>
+            <td><textarea rows="3" column="10"></textarea></td>
+        </tr>
+    </table>
+    <br>
+    <button>Save</button>
+</fieldset>
+</form>
+</div>
+<br>
+<!-- for Footer  -->
+<div class="footer">
+    <div class="container-fluid bg-dark text-white">
+        <div class="row p-3">
+            <div class="col-md-3 col-12">
+                <ul>
+                    <a href="">Quick Links</a>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Departments</li>
+                    <li>Volunteers</li>
+                    <li>Greviance</li>
+                    <li>Permission</li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-12">
+                <a href="">Address</a>
+                <p>संपर्क
+                    नाशिक महानगर पालिका
+                    राजीव गांधी भवन,
+                    शरणपूर रोड
+                    नाशिक
+                    टेलिफोन (पीबीएक्स) : 0253 - 2575631 / 2 / 3 / 4</p>
+            </div>
+            <div class="col-md-3 col-12">
+                <a href="">Department</a>
+                <p>Garden Department</p>
+                <p> Dr. Vijay Mundhe</p>
+            </div>
+            <div class="col-md-3 col-12">
+                <img class="mt-2" src="C:\Users\SHRAWANI CHAUDHARI\Documents\Panda\IMG-20221005-WA0003.jpg" width="230px" height="200px" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
